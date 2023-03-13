@@ -16,6 +16,4 @@ void main()
     printf("short:%lu\n",sizeof(short));//短整型的数据类型的储存大小。
     
     printf("char:%lu",sizeof(char));//字符串的数据类型的储存大小。
-    
-    return 0;
 }
