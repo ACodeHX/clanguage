@@ -1,4 +1,3 @@
-/* Note:Your choice is C IDE */
 #include "stdio.h"
 void main()
 {      /**第二个C语言代码,数据类型的储存大小，可以使用sizeof(type)查看数据类型。
