@@ -1,21 +1,21 @@
 /* Note:Your choice is C IDE */
 #include "stdio.h"
 void main()
-{      /**µÚ¶ş¸öCÓïÑÔ´úÂë,Êı¾İÀàĞÍµÄ´¢´æ´óĞ¡£¬¿ÉÒÔÊ¹ÓÃsizeof(type)²é¿´Êı¾İÀàĞÍ¡£
-      £¨The second C code, the storage size of the data type, can be viewed using sizeof(type).£©
+{      /**ç¬¬äºŒä¸ªCè¯­è¨€ä»£ç ,æ•°æ®ç±»å‹çš„å‚¨å­˜å¤§å°ï¼Œå¯ä»¥ä½¿ç”¨sizeof(type)æŸ¥çœ‹æ•°æ®ç±»å‹ã€‚
+      ï¼ˆThe second C code, the storage size of the data type, can be viewed using sizeof(type).ï¼‰
 */
    
-    printf("int ´¢´æ´óĞ¡£º%lu\n",sizeof(int));          //ÕûĞÎµÄÊı¾İÀàĞÍµÄ´¢´æ´óĞ¡¡£
+    printf("int å‚¨å­˜å¤§å°ï¼š%lu\n",sizeof(int));          //æ•´å½¢çš„æ•°æ®ç±»å‹çš„å‚¨å­˜å¤§å°ã€‚
     
-    printf("¸÷Êı¾İÀàĞÍµÄ´óĞ¡£º\nint:%lu\nfloat:%lu\n",sizeof(int),sizeof(float));//ÕûĞÎºÍ¸¡µãµÄÊı¾İÀàĞÍµÄ´¢´æ´óĞ¡¡£
+    printf("å„æ•°æ®ç±»å‹çš„å¤§å°ï¼š\nint:%lu\nfloat:%lu\n",sizeof(int),sizeof(float));//æ•´å½¢å’Œæµ®ç‚¹çš„æ•°æ®ç±»å‹çš„å‚¨å­˜å¤§å°ã€‚
     
-    printf("double:%lu\n",sizeof(double));//Ë«¾«¶È¸¡µãµÄÊı¾İÀàĞÍµÄ´¢´æ´óĞ¡¡£
+    printf("double:%lu\n",sizeof(double));//åŒç²¾åº¦æµ®ç‚¹çš„æ•°æ®ç±»å‹çš„å‚¨å­˜å¤§å°ã€‚
     
-    printf("long:%lu\nlong int:%lu\n",sizeof(long),sizeof(long int));//³¤ÕûĞÍµÄÊı¾İÀàĞÍµÄ´¢´æ´óĞ¡¡£
+    printf("long:%lu\nlong int:%lu\n",sizeof(long),sizeof(long int));//é•¿æ•´å‹çš„æ•°æ®ç±»å‹çš„å‚¨å­˜å¤§å°ã€‚
     
-    printf("short:%lu\n",sizeof(short));//¶ÌÕûĞÍµÄÊı¾İÀàĞÍµÄ´¢´æ´óĞ¡¡£
+    printf("short:%lu\n",sizeof(short));//çŸ­æ•´å‹çš„æ•°æ®ç±»å‹çš„å‚¨å­˜å¤§å°ã€‚
     
-    printf("char:%lu",sizeof(char));//×Ö·û´®µÄÊı¾İÀàĞÍµÄ´¢´æ´óĞ¡¡£
+    printf("char:%lu",sizeof(char));//å­—ç¬¦ä¸²çš„æ•°æ®ç±»å‹çš„å‚¨å­˜å¤§å°ã€‚
     
-   
+    return 0;
 }
