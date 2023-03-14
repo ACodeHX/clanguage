@@ -1,10 +1,9 @@
-/* Note:Your choice is C IDE */
-#include "stdio.h"//while求阶乘
+#include "stdio.h"//while脟贸陆脳鲁脣
 void main()
 {
     int i=1,n,q=1;
-    printf("求n的阶乘\n");
-    printf("输入n:");
+    printf("脟贸n碌脛陆脳鲁脣\n");
+    printf("脢盲脠毛n:");
     scanf("%d",&n);
     while(i<=n)
     {
